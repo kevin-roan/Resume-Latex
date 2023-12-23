@@ -1,0 +1,202 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% This is a modified ONE COLUMN version of
+% the following template:
+%
+% Deedy - One Page Two Column Resume
+% LaTeX Template
+% Version 1.1 (30/4/2014)
+%
+% Original author:
+% Debarghya Das (http://debarghyadas.com)
+%
+% Original repository:
+% https://github.com/deedydas/Deedy-Resume
+%
+% IMPORTANT: THIS TEMPLATE NEEDS TO BE COMPILED WITH XeLaTeX
+%
+% This template uses several fonts not included with Windows/Linux by
+% default. If you get compilation errors saying a font is missing, find the line
+% on which the font is used and either change it to a font included with your
+% operating system or comment the line out to use the default font.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% TODO:
+% 1. Integrate biber/bibtex for article citation under publications.
+% 2. Figure out a smoother way for the document to flow onto the next page.
+% 3. Add styling information for a "Projects/Hacks" section.
+% 4. Add location/address information
+% 5. Merge OpenFont and MacFonts as a single sty with options.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% CHANGELOG:
+% v1.1:
+% 1. Fixed several compilation bugs with \renewcommand
+% 2. Got Open-source fonts (Windows/Linux support)
+% 3. Added Last Updated
+% 4. Move Title styling into .sty
+% 5. Commented .sty file.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+% Known Issues:
+% 1. Overflows onto second page if any column's contents are more than the
+% vertical limit
+% 2. Hacky space on the first bullet point on the second column.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+      \documentclass[]{deedy-resume-openfont}
+  
+      \begin{document}
+      
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  %
+  %     Profile
+  %
+  %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+  
+\namesection{Kevin} {Roan}\infoline{\customtitle{Front End Develper - React Js} \\\vspace{2pt}\href{mailto:kevinroan@proton.com}{kevinroan@proton.com} | +91 987654321| Calicut,Kerala}\\\vspace{4pt}\linksline{\descript{\href{https://kevinroan.vercel.app}{Portfolio | }}\descript{\href{https://www.linkedin.com/in/kevinroan/}{Linkedin | }}\descript{\href{https://github.com/kevin-roan}{GitHub}}}\underlineheader{}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Skills
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Skills}
+\raggedright
+\begin{longtable}{p{5cm}p{13.5cm}}
+\descript{Libraries/Frameworks} & {\location{React, Redux, TailwindCSS, LESS, SASS, MaterialUI, ExpressJS, NodeJS}} \\
+\descript{Programming Languages} & {\location{Javascript/Typescript, Python, Bash}} \\
+\descript{Tools / Platforms} & {\location{Git, Docker, Postman, Linux}} \\
+\descript{Databases} & {\location{MongoDB, MySQL, FireBase}} \\
+\end{longtable}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        %
+        %     Experience
+        %
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        \section{Experience}
+        \runsubsection{Freelance Developer}\descript{| React,Nextjs}\hfill \location{Calicut,Kerala | Mar 2023 – Present}
+            \vspace{4pt}
+\begin{tightemize}
+\item[] Post-graduation, I freelanced as a developer, specializing in React.js and Next.js. I crafted responsive and modern web solutions, collaborating with diverse clients to deliver tailored applications that seamlessly combined functionality and aesthetics.
+\end{tightemize}
+            \sectionsep
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        %
+        %     Projects
+        %
+        %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+        \section{Projects }
+        \vspace{2mm}
+        \raggedright
+        
+            \runsubsection{\large{Software Firm Website }}
+            \descript{| \href{https://github.com/kevin-roan/software-firm-website-nextjs}{Source Code}}
+            \descript{| \href{https://software-firm-website-nextjs.vercel.app/}{Preview}}\hfill\location{Nextjs,Typescript,TailwindCSS,Framer Motion}\\
+            \begin{tightemize}
+\item  Developed a professional and responsive software firm website using Next.js, TypeScript, and Tailwind CSS for a freelance client.
+\item  Implemented a modern design approach and user-friendly features to enhance the website\textquotesingle{}s visual appeal and functionality.
+\item  Integrated TypeScript to improve code quality and maintainability, ensuring a robust and error-free codebase.
+\end{tightemize}
+            \sectionsep
+          
+            \runsubsection{\large{KERALA TOURS}}
+           \descript{| \href{https://github.com/kevin-roan/kerala-tours-landing-page.git}{Source Code}}
+            \descript{| \href{https://kerala-tours-landing-page.vercel.app/}{Preview}}\hfill
+            \location{React,Typecript,SCSS}\\
+            \begin{tightemize}
+\item  Crafted a captivating tourist landing page with React to ensure a seamless and engaging user experience.
+\item  Employed the power of Sass for advanced styling, enhancing the visual appeal and sophistication of the webpage.
+\end{tightemize}
+            \sectionsep
+            \runsubsection{\large{Admin Panel}}
+           \descript{| \href{https://github.com/kevin-roan/react_adminpanel_machine_test_1}{Source Code}}
+            \descript{| \href{https://react-adminpanel-machine-test-1.vercel.app/}{Preview}}\hfill\location{React,Typecript,SCSS,Framer Motion}\\
+            \begin{tightemize}
+\item  Developed a responsive admin panel using Next.js, TypeScript, and SCSS for seamless user interaction and optimal viewing across devices.
+\item  Implemented TypeScript to enhance code quality, catch errors early in the development process, and ensure a more maintainable codebase.
+\end{tightemize}
+            \sectionsep
+          
+        
+            \runsubsection{\large{RESTOHUB}}
+           \descript{| \href{https://github.com/kevin-roan/restohub}{Source Code}}
+            \descript{| \href{https://kevin-roan.github.io/restohub/}{Preview}}\hfill
+             \location{React,MaterialUI}\\
+            \begin{tightemize}
+\item  React.js frontend website for a restaurant, seamlessly blending
+\item[] modern design with user-friendly features,Leveraging React.js and
+\item[] Material UI
+\end{tightemize}
+            \sectionsep
+            \runsubsection{\large{HSATCO}}
+            \descript{| \href{https://github.com/kevin-roan/HSATCO}{Source Code}}
+            \descript{| \href{https://hsatco.com/}{Preview}}\hfill
+            \location{Html,CSS,JavaScript}\\
+            \begin{tightemize}
+\item  Static website for Freelance Client
+\item  Hosted the website, delivering a fully functional online presence
+\item[] for the clients target audience
+\end{tightemize}
+\vspace{200pt}
+
+\section{Mini Projects }
+            \sectionsep
+    
+            \runsubsection{\large{Ecommerce website}}
+             \descript{| \href{https://github.com/kevin-roan/shop.it}{Source Code}}\hfill \location{ExpressJs,NodeJs,Handlebars,MongoDB}\\
+            \begin{tightemize}
+\item  Built a scalable e-commerce website with Node.js and Express,
+\item[] adhering to the MVC architectural pattern for efficient code
+\item[] organization.
+\item  Enhanced website performance and scalability by seamlessly
+\item[] integrating MongoDB for handling product listings, customer
+\item[] data, and orders.
+\end{tightemize}
+
+            \sectionsep
+        
+            \runsubsection{\large{ATTENDANCE MANAGEMENT SYSTEM}}
+             \descript{| \href{https://github.com/kevin-roan/software-firm-website-nextjs}{Source Code}}\hfill \location{Python,Django,Html,Css,Javascript}\\
+            \begin{tightemize}
+\item  Designed an intuitive web interface with HTML, CSS, and
+\item[] JavaScript for easy attendance tracking and management, while
+\item[] also developing a secure Django and MySQL-based backend
+\item[] system to ensure data accuracy and accessibility
+\end{tightemize}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Education
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Education}
+\raggedright
+    \runsubsection{Bachelor of computer application}\hspace*{\fill}  \location{Mar 2020 - Mar 2023}\\
+    \descript{ University of Calicut}\hspace*{\fill}\location{Calicut,Kerala}\\
+    CGPA: 6.75\\
+    \sectionsep
+    
+     \runsubsection{Higher Secondary}\hspace*{\fill}  \location{Mar 2018 - Mar 2020}\\
+    \descript{ Pavandoor HSS }\hspace*{\fill}\location{Calicut,Kerala}\\
+    Percentage: 70% \\
+    \sectionsep
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%
+%     Certifications
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Certifications}
+\vspace{4pt}
+\begin{tightemize}
+\item Hackathon - HackElite\\
+\item Hackathon - HackEnvi.\\
+\item National Service Scheme - NSS.\\
+\end{tightemize}
+\vspace{4pt}
+
+      \ 
+      \end{document}
